@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+ <div id="main-form">
+       
+    <label for="Subject-English">English:
+        <input type="number" id="Subject-English">
+    </label>
+    
+    <br>
+
+    <label for="Subject-Total-English">Total-English:
+        <input type="number" id="Subject-Total-English">
+    </label>
+    
+    <br>
+    
+    <label for="Subject-Math">Math:
+        <input type="number" id="Subject-Math">
+    </label>
+    <br>
+
+    <label for="Subject-Total-English">Total-Math:
+        <input type="number" id="Subject-Total-Math">
+    </label>
+    
+    <br>
+
+    <label for="Subject-Urdu">Urdu:
+        <input type="number" id="Subject-Urdu">
+    </label>
+    
+    <br>
+
+    <label for="Subject-Total-Urdu">Total-Urdu:
+        <input type="number" id="Subject-Total-Urdu">
+    </label>
+    
+    <br>
+    
+    <label for="Subject-Physis">Physis:
+        <input type="number" id="Subject-Physis">
+    </label>
+
+
+    <br>
+
+    <label for="Subject-Total-Physis">Total-Physis:
+        <input type="number" id="Subject-Total-Physis">
+    </label>
+
+    <button onclick="result()">result</button>
+<br>
+<br><br><br><br>
+<h1>Report card</h1>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>obtained</th>
+            <th>total</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+
+        </tr>
+        <tr>
+            <th>English</th>
+            <td id="English-obtained-mark">--</td>
+            <td id="English-Total-mark">--</td>
+            <td id="English-Percentage">--</td>
+            <td id="English-Grade">--</td>
+            
+        </tr>       
+        <tr>
+            <th>math</th>
+            <td id="Math-obtained-mark">--</td>
+            <td id="Math-Total-mark">--</td>
+            <td id="Math-Percentage">--</td>
+            <td id="Math-Grade">--</td>
+            
+        </tr>
+        <tr>
+            <th>Urdu</th>
+            <td id="Urdu-obtained-mark">--</td>
+            <td id="Urdu-Total-mark">--</td>
+            <td id="Urdu-Percentage">--</td>
+            <td id="Urdu-Grade">--</td>
+            
+        </tr>
+        <tr>
+            <th>Physis</th>
+            <td id="Physis-obtained-mark">--</td>
+            <td id="Physis-Total-mark">--</td>
+            <td id="Physis-Percentage">--</td>
+            <td id="Physis-Grade">--</td>
+        
+        </tr>
+        <tr>
+     <th>Result</th>
+    <th id="Student-Obtained-Mark"></th>
+    <th id="total-mark"></th>
+    <th id="student-percentage"></th>
+    <th id="grade"></th> 
+    </tr>
+    </table>
+ 
+ </div>     
+</body>
+</html>
